@@ -1,0 +1,42 @@
+Netflix has atleast 2 items and at most 6 items
+    So (e.g. the first item) needs to point to:
+        2 items: #item-0 -> #item-4
+        3 items: #item-0 -> #item-6
+        4 items: #item-0 -> #item-8
+        5 items: #item-0 -> #item-10
+        6 items: #item-0 -> #item-12
+
+        => 5 buttons per item per direction
+        => 10 buttons per item
+
+        place arrows outside of each element
+        find way to pad entire <contents> div
+        scrolling to :target scrolls until it is fully into view
+
+        Scroll to page:
+        1: #item-1
+        2: #item-5
+        3: #item-10
+
+        TODO Next:
+            Get working for different --scale factor
+            Find way to use --pad to create a gap on either end --kinda done
+            Use @media to determine number of tiles (and dynamically change)
+            Maintain aspect ratio
+            Start using actual images
+
+            TODO Next (IMPORTANT):
+                Re-code shift logic without a translateX on .container: is it possible? --shift all items individually
+                    (remember shifting the container allows for 'margins' to take effect)
+
+            Arrows need to be clicked, but they cause a :hover on .container!
+
+        TODO Fresh:
+            Pin header to top of browse.php
+            Dropdown for profile in browse.php
+            Look into a mobile version
+            Code /category, /video etc.
+            Fix for Chrome, mobile etc.
+            Make generated css use the sliders id, and place in <style> before html
+            Make video details appear when items are hovered
+            Write API's for data

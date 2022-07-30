@@ -1,0 +1,475 @@
+.login-wrapper-background
+{
+    background-size: cover;
+    display: block;
+    height: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    opacity: .5;
+    color: #fff;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    color: #333;
+    font-size: 16px;
+    direction: ltr;
+}
+
+.background-image
+{
+    min-height: 100%;
+    min-width: 100%;
+    border: 0;
+    color: #fff;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    color: #333;
+    font-size: 16px;
+    direction: ltr;
+}
+
+.app-mount
+{
+    background-color: transparent;
+    color: #fff;
+    height: 100%;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    color: #333;
+    font-size: 16px;
+    direction: ltr;
+}
+
+.login-wrapper-hybrid
+{
+    background-color: #000;
+    color: #fff;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    z-index: 0;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    color: #333;
+    font-size: 16px;
+    direction: ltr;
+}
+
+.login-header
+{
+    /*position: absolute;*/
+    left: 0;
+    top: 0;
+    width: 100%;
+    border-bottom: transparent;
+    background: linear-gradient(to bottom,rgba(0,0,0,.5) 0,rgba(0,0,0,0) 100%);
+    border: 0;
+    height: 90px;
+    color: #fff;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    color: #333;
+    font-size: 16px;
+    direction: ltr;
+}
+
+.signup-basic-header
+{
+    margin-left: 3%;
+    text-decoration: none;
+    vertical-align: middle;
+    fill: #e50914;
+    display: inline-block;
+    line-height: 90px;
+    background-color: transparent;
+    color: #0080ff;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    color: #333;
+    font-size: 16px;
+    direction: ltr;
+}
+
+.site-logo
+{
+    fill: #e50914;
+    line-height: 90px;
+    color: #0080ff;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    /*color: #333;*/
+    font-size: 16px;
+    direction: ltr;
+    height: 45px;
+    width: 167px;
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+.login-body
+{
+    /*margin: 0 auto -236px;*/
+    margin: 0 auto 0;
+    /*min-height: 100vh; PROBLEMATIC*/
+    background-color: transparent;
+    max-width: 450px;
+    color: #333;
+    padding: 0 5%;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    color: #333;
+    font-size: 16px;
+    direction: ltr;
+}
+
+.login-wrapper-content
+{
+    color: #333;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    color: #333;
+    font-size: 16px;
+    direction: ltr;
+}
+
+.login-content
+{
+    min-height: 660px;
+    padding: 60px 68px 40px;
+    margin-bottom: 90px;
+    background-color: rgba(0,0,0,.75);
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: flex;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    flex-direction: column;
+    margin: 0;
+    margin-bottom: 0px;
+    width: 100%;
+}
+
+.login-form-main
+{
+    -moz-box-flex: 1;
+    flex-grow: 1;
+    color: #333;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    color: #333;
+    font-size: 16px;
+    direction: ltr;
+}
+
+.login-form-main h1
+{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 28px;
+    margin: 0 0 10px 0;
+    padding: 0;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    direction: ltr;
+}
+
+.login-form
+{
+    /*min-height: 660px; PROBLEMATIC */
+    /*padding: 60px 68px 40px; PROBLEMATIC */
+    margin-bottom: 90px;
+    /*background-color: rgba(0,0,0,.75); PROBLEMATIC */
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: flex;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    flex-direction: column;
+    margin: 0;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.login-input-email
+{
+    padding-bottom: 16px;
+    max-width: 100%;
+    position: relative;
+    color: #333;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    color: #333;
+    font-size: 16px;
+    direction: ltr;
+}
+
+.input-placement
+{
+    position: relative;
+    color: #333;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    color: #333;
+    font-size: 16px;
+    direction: ltr;
+}
+
+.email-phone-controls
+{
+    position: relative;
+    border-radius: 4px;
+    border: 0;
+    color: #333;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    color: #333;
+    font-size: 16px;
+    direction: ltr;
+}
+
+.input-id
+{
+    color: #333;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    color: #333;
+    font-size: 16px;
+    direction: ltr;
+}
+
+.text-field
+{
+    background: #333;
+    border-radius: 4px;
+    border: 0;
+    color: #fff;
+    height: 50px;
+    line-height: 50px;
+    padding: 16px 20px 0;
+    width: 100%;
+    box-shadow: none;
+    box-sizing: border-box;
+    font-size: 16px;
+    display: block;
+    -moz-appearance: none;
+    font: inherit;
+    margin: 0;
+    direction: ltr;
+}
+
+.place-label
+{
+    left: 20px;
+    font-size: 16px;
+    position: absolute;
+    top: 50%;
+    color: #8c8c8c;
+    transition: font .1s ease,top .1s ease,transform .1s ease,-webkit-transform .1s ease,-moz-transform .1s ease,-o-transform .1s ease;
+    transform: translateY(-50%);
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    direction: ltr;
+}
+
+.text-field:focus~.place-label, .text-field:valid~.place-label
+{
+    transform: translateY(-150%);
+    font-size: 11px;
+}
+
+.login-input-password
+{
+    padding-bottom: 16px;
+    max-width: 100%;
+    position: relative;
+    z-index: 0;
+    color: #333;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    color: #333;
+    font-size: 16px;
+    direction: ltr;
+}
+
+.password-controls
+{
+    border-radius: 4px;
+    border: 0;
+    background: #333;
+    display: flex;
+    color: #333;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    color: #333;
+    font-size: 16px;
+    direction: ltr;
+}
+
+.password-toggle
+{
+    height: 50px;
+    padding: 0 12px;
+    display: none;
+    -moz-appearance: none;
+    color: #8c8c8c;
+    font-size: 14px;
+    border: 0;
+    background: 0 0;
+    -moz-box-flex: 0;
+    flex-grow: 0;
+    flex-shrink: 0;
+    cursor: pointer;
+    text-transform: none;
+    overflow: visible;
+    font: inherit;
+    margin: 0;
+    direction: ltr;
+
+    visibility: hidden;
+}
+
+.login-button-submit
+{
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 24px 0 12px;
+    width: 100%;
+    max-width: 100%;
+    padding: 16px;
+    background: #e50914;
+    display: inline-block;
+    min-width: 98px;
+    min-height: 37px;
+    line-height: 1em;
+    position: relative;
+    color: #fff;
+    box-shadow: 0 1px 0 rgba(0,0,0,.55);
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    letter-spacing: .1px;
+    user-select: none;
+    text-align: center;
+    box-sizing: border-box;
+    border: 0;
+    -webkit-appearance: button;
+    text-transform: none;
+    overflow: visible;
+    /*font: inherit; PROBLEMATIC */
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    direction: ltr;
+}
+
+.login-form-help
+{
+    display: flex;
+    color: #333;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    color: #333;
+    font-size: 16px;
+    direction: ltr;
+
+    visibility: hidden;
+}
+
+.login-remember-me
+{
+    -moz-box-flex: 1;
+    flex-grow: 1;
+    padding-left: 20px;
+    position: relative;
+    box-sizing: border-box;
+    user-select: none;
+    font-size: 16px;
+    display: inline-block;
+    margin-bottom: -5px;
+    color: #333;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    direction: ltr;
+}
+
+.remember-me
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    /*opacity: 0; PROBLEMATIC */
+    opacity: 0.5;
+    margin-right: 10px;
+    box-sizing: border-box;
+    padding: 0;
+    line-height: normal;
+    color: inherit;
+    font: inherit;
+    margin: 0;
+    direction: ltr;
+
+    /*background: #737373;
+    border-radius: 2px;
+    border: 0;
+    height: 16px;
+    left: -20px;
+    width: 16px;
+    content: "";
+    position: absolute;
+    display: block;
+    top: 2px;
+    padding: 0;
+    color: #333;
+    line-height: 1.2;*/
+}
+
+.remember-me-label
+{
+    padding: 0;
+    color: #333;
+    position: relative;
+    display: block;
+    line-height: 1.2;
+    font-size: 16px;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    direction: ltr;
+}
+
+.login-remember-me-label-text
+{
+    color: #b3b3b3;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.2;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    direction: ltr;
+}
+
+.helper
+{
+    font-size: 14px;
+    line-height: 1.3em;
+    color: grey;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    direction: ltr;
+}
+
+.login-help-link
+{
+    color: #b3b3b3;
+    -moz-box-flex: 0;
+    font-size: 13px;
+    font-weight: 500;
+    padding-top: 2px;
+    background-color: transparent;
+    text-decoration: none;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    direction: ltr;
+}
+
+html
+{
+    height: 100%;
+    font-family: sans-serif;
+    background: #f3f3f3;
+    color: #333;
+    font-size: 16px;
+    direction: ltr;
+}
+
+body
+{
+    height: 100%;
+    margin: 0;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: #f3f3f3;
+    color: #333;
+    font-size: 16px;
+    direction: ltr;
+}
